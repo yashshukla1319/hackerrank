@@ -7,3 +7,8 @@ ________________________________________________________________________________
 Calendar cal = Calendar.getInstance();
         cal.set(month, day, year);
         int ans = cal.get(Calendar.DAY_OF_WEEK);
+------------------------------------------------------------------------------------------------------------
+To format date and time:
+DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");  
+    
+    String formattedDate = myDateObj.format(myFormatObj); 
