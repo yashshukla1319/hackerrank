@@ -12,3 +12,7 @@ To format date and time:
 DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");  
     
     String formattedDate = myDateObj.format(myFormatObj); 
+__________________________________________________________________________________________________________
+
+substring (start,end) - output: start,end-1
+ substr = str.substring(7, 17);
