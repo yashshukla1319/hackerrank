@@ -50,3 +50,27 @@ for AOP - https://mossgreen.github.io/Spring-Certification-Spring-AOP/
 Spring uses proxy objects to implement the method invocation interception part of AOP. 
 Such proxy objects wrap the original Spring bean and intercepts method invocations as 
 specified by the set of pointcuts defined by the cross cutting concern.
+
+________________________________________________________________________________________________________
+Following are various methods of Object class −
+
+protected Object clone() - Used to create and return a copy of this object.
+ boolean equals(Object obj) - Used to indicate whether some other object is "equal to" this one.
+protected void finalize() - garbage collector calls this method on an object when it determines that there are no more references to the object.
+Class<?> getClass() - Used to get the runtime class of this Object.
+int hashCode() - Used to get a hash code value for the object.
+void notify() - Used to wake up a single thread that is waiting on this object's monitor.
+void notifyAll() - Used to wake up all threads that are waiting on this object's monitor.
+String toString() - Used to get a string representation of the object.
+void wait() - marks the current thread to wait until another thread invokes the notify() method or the notifyAll() method for this object.
+void wait(long timeout) - marks the current thread to wait until either another thread invokes the notify() method or the notifyAll() method for this object, or a specified amount of time has elapsed.
+void wait(long timeout, int nanos) - marks the current thread to wait until another thread invokes the notify() method or the notifyAll() method for this object, or some other thread interrupts the current thread, or a certain amount of real time has elapsed.
+_________________________________________________________________________________________________________________________________________________________________________________
+^	The beginning of a line.
+$	The end of a line.
+\b	A word boundary (where a word starts or ends, e.g. space, tab etc.).
+\B	A non-word boundary.
+\A	The beginning of the input.
+\G	The end of the previous match.
+\Z	The end of the input but for the final terminator (if any).
+\z	
