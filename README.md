@@ -82,3 +82,11 @@ The BigDecimal class provides operations on double numbers for arithmetic, scale
 It can handle very large and very small floating point numbers with great precision but compensating with the time complexity a bit.
 A BigDecimal consists of a random precision integer unscaled value and a 32-bit integer scale. 
 If greater than or equal to zero, the scale is the number of digits to the right of the decimal point. If less than zero, the unscaled value of the number is multiplied by 10^(-scale).
+__________________________________________________________________________________________________________________________________________________________________________________________________
+`Big Integer`
+certainty factor - 1,0,-1
+
+isProbablePrime(int certainty) method is used to tell if this BigInteger is probably prime or if it’s definitely composite.
+This method checks for prime or composite upon the current BigInteger by which this method is called and returns a boolean value.
+It returns true if this BigInteger is probably prime, false if it’s definitely composite. 
+If certainty is <= 0, true is returned.
