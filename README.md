@@ -77,3 +77,8 @@ $	The end of a line.
 _________________________________________________________________________________________________________________________________________________________________
 https://www.buggybread.com/2014/09/java-interview-questions-and-answers-on_59.html
 ________________________________________________________________________________________________________________________________________________________________________________
+`Big Decimal`
+The BigDecimal class provides operations on double numbers for arithmetic, scale handling, rounding, comparison, format conversion and hashing.
+It can handle very large and very small floating point numbers with great precision but compensating with the time complexity a bit.
+A BigDecimal consists of a random precision integer unscaled value and a 32-bit integer scale. 
+If greater than or equal to zero, the scale is the number of digits to the right of the decimal point. If less than zero, the unscaled value of the number is multiplied by 10^(-scale).
