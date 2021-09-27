@@ -90,3 +90,7 @@ isProbablePrime(int certainty) method is used to tell if this BigInteger is prob
 This method checks for prime or composite upon the current BigInteger by which this method is called and returns a boolean value.
 It returns true if this BigInteger is probably prime, false if it’s definitely composite. 
 If certainty is <= 0, true is returned.
+/*  obj.add(obj)
+    obj.multiply(obj) methods of BigInteger */
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+
