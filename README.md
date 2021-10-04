@@ -97,3 +97,6 @@ ________________________________________________________________________________
 
 The instanceof in java is also known as type comparison operator because it compares the instance with type. 
 It returns either true or false.
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
+`JAVA reflection` is a very powerful tool to inspect the attributes of a class in runtime.
+For example, we can retrieve the list of public fields of a class using getDeclaredMethods().
