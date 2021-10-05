@@ -100,3 +100,8 @@ It returns either true or false.
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________
 `JAVA reflection` is a very powerful tool to inspect the attributes of a class in runtime.
 For example, we can retrieve the list of public fields of a class using getDeclaredMethods().
+__________________________________________________________________________________________________________________________________
+`Comaprable Sort` Refer this example to see how compareto method is override and used to compare elements of 
+List<Student> .
+_________________________________________________________________________________________________________________________________________________________
+`object.cardinality` Method in Bitset class which returns Returns the number of bits set to true in this BitSet.
