@@ -109,3 +109,4 @@ ________________________________________________________________________________
 `Java annotation` can be used to define the metadata of a Java class or class element. We can use Java annotation at the compile time to instruct the compiler about the build process. 
 Annotation is also used at runtime to get insight into the properties of class elements.
 ______________________________________________________________________________________________________________________________________________________________________________________________________
+`Covariant Return Types`Java allows for Covariant Return Types, which means you can vary your return type as long you are returning a subclass of your specified return type.
