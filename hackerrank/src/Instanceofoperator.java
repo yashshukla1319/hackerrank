@@ -1,7 +1,9 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class Student{}
+class Student{
+    //private double cgpa;
+}
 class Rockstar{}
 class Hacker{}
 

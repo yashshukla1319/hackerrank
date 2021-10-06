@@ -105,3 +105,7 @@ ________________________________________________________________________________
 List<Student> .
 _________________________________________________________________________________________________________________________________________________________
 `object.cardinality` Method in Bitset class which returns Returns the number of bits set to true in this BitSet.
+_______________________________________________________________________________________________________________________________________________________________________
+`Java annotation` can be used to define the metadata of a Java class or class element. We can use Java annotation at the compile time to instruct the compiler about the build process. 
+Annotation is also used at runtime to get insight into the properties of class elements.
+______________________________________________________________________________________________________________________________________________________________________________________________________
