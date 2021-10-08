@@ -110,3 +110,7 @@ ________________________________________________________________________________
 Annotation is also used at runtime to get insight into the properties of class elements.
 ______________________________________________________________________________________________________________________________________________________________________________________________________
 `Covariant Return Types`Java allows for Covariant Return Types, which means you can vary your return type as long you are returning a subclass of your specified return type.
+_________________________________________________________________________________________________________________________________________________________________________________________________________
+`Varargs` The three dots (...) are used in a function’s declaration as a parameter.
+These dots allow zero to multiple arguments to be passed when the function is called. The three dots are also known as var args.
+_________________________________________________________________________________________________________________________________________________________________________________________________________
