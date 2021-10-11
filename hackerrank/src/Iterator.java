@@ -1,9 +1,9 @@
-import java.util.ArrayList;
+/*import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Iterator {
 
-    static Iterator func(ArrayList mylist) {
+    static Iterator func(ArrayList<Integer> mylist) {
         Iterator it = (Iterator) mylist.iterator();
         while (it.hasNext()) {
             Object element = it.next();
@@ -15,7 +15,7 @@ public class Iterator {
     }
 
     public static void main(String[] args) {
-        ArrayList mylist = new ArrayList();
+        ArrayList<Integer> mylist = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
@@ -36,3 +36,4 @@ public class Iterator {
 
     }
 }
+*/

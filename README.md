@@ -97,3 +97,20 @@ ________________________________________________________________________________
 
 The instanceof in java is also known as type comparison operator because it compares the instance with type. 
 It returns either true or false.
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
+`JAVA reflection` is a very powerful tool to inspect the attributes of a class in runtime.
+For example, we can retrieve the list of public fields of a class using getDeclaredMethods().
+__________________________________________________________________________________________________________________________________
+`Comaprable Sort` Refer this example to see how compareto method is override and used to compare elements of 
+List<Student> .
+_________________________________________________________________________________________________________________________________________________________
+`object.cardinality` Method in Bitset class which returns Returns the number of bits set to true in this BitSet.
+_______________________________________________________________________________________________________________________________________________________________________
+`Java annotation` can be used to define the metadata of a Java class or class element. We can use Java annotation at the compile time to instruct the compiler about the build process. 
+Annotation is also used at runtime to get insight into the properties of class elements.
+______________________________________________________________________________________________________________________________________________________________________________________________________
+`Covariant Return Types`Java allows for Covariant Return Types, which means you can vary your return type as long you are returning a subclass of your specified return type.
+_________________________________________________________________________________________________________________________________________________________________________________________________________
+`Varargs` The three dots (...) are used in a function’s declaration as a parameter.
+These dots allow zero to multiple arguments to be passed when the function is called. The three dots are also known as var args.
+_________________________________________________________________________________________________________________________________________________________________________________________________________
