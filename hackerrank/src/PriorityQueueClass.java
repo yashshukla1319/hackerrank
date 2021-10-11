@@ -13,9 +13,9 @@ class StudentClass implements Comparable<StudentClass>{
         this.cgpa = cgpa;
     }
 
-    public int getID() {
+    /*public int getID() {
         return id;
-    }
+    }*/
 
     public String getName() {
         return name;
