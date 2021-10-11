@@ -114,3 +114,14 @@ ________________________________________________________________________________
 `Varargs` The three dots (...) are used in a function’s declaration as a parameter.
 These dots allow zero to multiple arguments to be passed when the function is called. The three dots are also known as var args.
 _________________________________________________________________________________________________________________________________________________________________________________________________________
+`Default method in Interface` default methods are implicitly public , Unlike regular interface methods, 
+they are declared with the default keyword at the beginning of the method signature, and they provide an implementation.
+
+The reason why default methods were included in the Java 8 release is pretty obvious.
+In a typical design based on abstractions, where an interface has one or multiple implementations, 
+if one or more methods are added to the interface, all the implementations will be forced to implement them too. 
+Otherwise, the design will just break down.
+
+Default interface methods are an efficient way to deal with this issue. They allow us to add new methods to an interface that are automatically available in the implementations.
+Thus, there's no need to modify the implementing classes.
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
