@@ -114,3 +114,7 @@ ________________________________________________________________________________
 `Varargs` The three dots (...) are used in a function’s declaration as a parameter.
 These dots allow zero to multiple arguments to be passed when the function is called. The three dots are also known as var args.
 _________________________________________________________________________________________________________________________________________________________________________________________________________
+The heap is created when the JVM starts up and may increase or decrease in size while the application runs.
+____________________________________________________________________________________________________________________________________________________________________
+Static variable gets memory only once in the class area at the time of class loading. Using a static variable makes your program more memory efficient (it saves memory). Static variable belongs to the class rather than the object.
+_________________________________________________________________________________________________________________________________________________________________________________
