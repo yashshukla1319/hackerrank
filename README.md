@@ -118,3 +118,7 @@ The heap is created when the JVM starts up and may increase or decrease in size 
 ____________________________________________________________________________________________________________________________________________________________________
 Static variable gets memory only once in the class area at the time of class loading. Using a static variable makes your program more memory efficient (it saves memory). Static variable belongs to the class rather than the object.
 _________________________________________________________________________________________________________________________________________________________________________________
+Connecting a method call to the method body is known as binding.
+In case of the static binding, the type of the object is determined at compile-time whereas, in the dynamic binding, the type of the object is determined at runtime.
+_____________________________________________________________________________________________________________________________________________________________________________
+
